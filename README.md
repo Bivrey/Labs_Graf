@@ -6,6 +6,7 @@
   <img width="588" height="417" alt="image" src="https://github.com/user-attachments/assets/29a79105-ca79-4e44-a5df-6b3df7e9ef59" />
 
 - Кнопка **«Изменить надпись»** меняет текст в окне.
+
   <img width="588" height="418" alt="image" src="https://github.com/user-attachments/assets/6b7380ef-4a8b-4523-82db-053685f6df00" />
 
 - Кнопка **«Поставить PNG фоном»** загружает изображение `shape.png` и устанавливает его полупрозрачным фоном.
