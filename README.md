@@ -9,7 +9,7 @@
 
   <img width="588" height="418" alt="image" src="https://github.com/user-attachments/assets/6b7380ef-4a8b-4523-82db-053685f6df00" />
 
-- Кнопка **«Поставить PNG фоном»** загружает изображение `shape.png` и устанавливает его полупрозрачным фоном.
+- Кнопка **«Поставить PNG фоном»** загружает изображение `cat.png` и устанавливает его полупрозрачным фоном.
   <img width="581" height="421" alt="image" src="https://github.com/user-attachments/assets/35142291-a9ed-4b8d-aa21-5cf72daa65c5" />
 
 ## Установка
