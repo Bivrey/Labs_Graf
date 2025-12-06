@@ -1,13 +1,17 @@
 # Лабораторная работа №4: Paint
 
-Дописано приложение paint с сохранением нарисованного каждые 5 секунд
+Дописано приложение paint с сохранением нарисованного каждые 5 секунд.
 
 <img width="998" height="769" alt="image" src="https://github.com/user-attachments/assets/0eb51a81-c6ea-4834-8e7a-85db7e3d333b" />
 
-Рисуем на холсте, параллельно идет автосохранение в файл paint_saving.png
+По таймеру генерируется сигнал saveRequest, который перехватывается в QML.
+Добавлена функция saveCanvas(), использующая метод Canvas.grabToImage() для получения изображения содержимого Canvas.
+Изображение сохраняется в один файл paint_saving.png (перезаписывается при каждом срабатывании таймера).
+
+Рисуем на холсте, параллельно идет автосохранение в файл paint_saving.png.
 <img width="1279" height="957" alt="image" src="https://github.com/user-attachments/assets/d2cf7458-51e9-4ae3-a299-9acc10122443" />
 
-Результат можно увидеть
+Результат можно увидеть.
 <img width="909" height="551" alt="image" src="https://github.com/user-attachments/assets/6935f8e0-3b08-400b-9a14-fcf94b7420f1" />
 
 При повторном изменении файл перезапишется
